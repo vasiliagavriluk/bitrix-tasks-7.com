@@ -10,6 +10,11 @@
 
         showHTMLEdit($code, $title, $arValue, $strHTMLControlName)
 
+
 (Дополнительно, сложно) Добавить комплексное свойство для пользовательских полей  
 
-![img_1.png](img_1.png)
+        init.php - проверка и обработчик на событие OnUserTypeBuildList
+
+        IBlockPropertyPhpDev::GetUserTypeDescription - добавлены доп свойства (USER_TYPE_ID, CLASS_NAME, BASE_TYPE), а так же функция GetDBColumnType()
+
+![Alt text](img_1.png)
